@@ -10,6 +10,7 @@ import Button from "../../components/Button/Button";
 import Logo from "./Logo";
 import Panel from "./Panel";
 import Text from "../../components/Text/Text";
+import { Link } from "../../components/Link";
 import { LanguageIcon } from "./icons"; 
 import MenuButton from "./MenuButton";
 import UserBlock from "./UserBlock";
@@ -270,15 +271,18 @@ const Menu: React.FC<NavProps> = ({
             <T>Exchange</T>
             <T>Liquidity</T>
           </Dropdown>
-          <T>Farms</T>
-          <T>Pools</T>
-          <T>NFT</T>
-          <Dropdown target={
-            <T><MoreIcon/></T>
-          }>
-            <T>Bird Software</T>
-            <T>Solution</T>
-          </Dropdown>
+          <Link href="/farms">
+            <T>Farms</T>
+          </Link>
+          <Link href="/pools">
+            <T>Pools</T>
+          </Link>
+          <Link href="/nft">
+            <T>NFT</T>
+          </Link>
+          <Link href="/ifo">
+            <T>IFO</T>
+          </Link>
         </UpdatedFlex>
         </Flex>
 
