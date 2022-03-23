@@ -854,7 +854,7 @@ var style = (_a = {},
         fontSize: "40px",
     },
     _a[sizes$1.XXL] = {
-        fontSize: "64px",
+        fontSize: "50px",
     },
     _a);
 var Heading = styled__default['default'](Text).attrs({ bold: true })(templateObject_1$g || (templateObject_1$g = __makeTemplateObject(["\n  ", "\n  font-weight:600;\n  line-height: 1.1;\n"], ["\n  ", "\n  font-weight:600;\n  line-height: 1.1;\n"])), function (_a) {

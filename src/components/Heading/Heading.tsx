@@ -13,7 +13,7 @@ const style = {
     fontSize: "40px",
   },
   [sizes.XXL]: {
-    fontSize: "64px",
+    fontSize: "50px",
   },
 };
 
